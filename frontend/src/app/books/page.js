@@ -16,7 +16,7 @@ const BooksPage = async () => {
   return (
     <div className="xl:w-8/12 h-[calc(100vh-115px)] m-auto overflow-y-auto py-6 px-6">
       <BookHeader />
-      <BookList books={books} />
+      <BookList />
     </div>
   );
 };
